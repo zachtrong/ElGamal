@@ -13,8 +13,11 @@ public class ElGamalApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(ElGamalApplication.class.getResource("application.fxml"));
 
         Scene scene = new Scene(fxmlLoader.load(), 800, 600);
-        scene.getRoot().setStyle("-fx-font-family: 'serif'");
-        scene.getStylesheets().addAll(this.getClass().getResource("application.css").toExternalForm());
+        scene.getRoot().setStyle("-fx-font-family: 'serif';" +
+                "-fx-background-image: url('https://i.imgur.com/AwKZUu4.jpg');" +
+                "-fx-background-repeat: no-repeat;" +
+                "-fx-background-size: 800 800;" +
+                "-fx-background-position: center center;");
 
         stage.setTitle("ElGamal Encryption");
         stage.setScene(scene);
