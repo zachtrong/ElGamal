@@ -25,7 +25,7 @@
                 </font></Label>
             <TextField fx:id="txtK" layoutX="84.0" layoutY="125.0" prefHeight="25.0" prefWidth="200.0" >
                 <font>
-                    <Font name="Roboto" size="16.0" />
+                    <Font name="Roboto" size="13.0" />
                 </font>
             </TextField>
             <Label layoutX="28.0" layoutY="92.0" text="Key Generation" textFill="#43fd99">
@@ -40,7 +40,7 @@
             </Label>
             <TextField fx:id="txtA" layoutX="384.0" layoutY="125.0" prefHeight="25.0" prefWidth="200.0" >
                 <font>
-                    <Font name="Roboto" size="16.0" />
+                    <Font name="Roboto" size="13.0" />
                 </font>
             </TextField>
             <Label layoutX="28.0" layoutY="162.0" text="p =" textFill="WHITE">
@@ -50,7 +50,7 @@
             </Label>
             <TextField fx:id="txtP" layoutX="84.0" layoutY="164.0" prefHeight="25.0" prefWidth="500.0" >
                 <font>
-                    <Font name="Roboto" size="16.0" />
+                    <Font name="Roboto" size="13.0" />
                 </font>
             </TextField>
             <Label layoutX="28.0" layoutY="196.0" text="x =" textFill="WHITE">
@@ -60,7 +60,7 @@
             </Label>
             <TextField fx:id="txtX" layoutX="84.0" layoutY="198.0" prefHeight="25.0" prefWidth="500.0" >
                 <font>
-                    <Font name="Roboto" size="16.0" />
+                    <Font name="Roboto" size="13.0" />
                 </font>
             </TextField>
             <Label layoutX="208.0" layoutY="14.0" text="ElGamal Encryption" textAlignment="CENTER" textFill="#43fd99">
